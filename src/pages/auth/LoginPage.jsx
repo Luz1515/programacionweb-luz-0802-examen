@@ -171,8 +171,8 @@ export default function LoginPage() {
                 }}
               >
                 {loading
-                  ? "Signing In..."
-                  : "Sign In"}
+                  ? "Accediendo..."
+                  : "Ingresar"}
               </Button>
 
             </Stack>
