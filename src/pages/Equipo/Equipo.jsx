@@ -8,7 +8,7 @@ export default function Equipo(){
                 <Grid item xs={12} md={6}>
                     <Card>
                         <CardContent>
-                        <Typography variant="h6">Nombre del Integrante </Typography>
+                        <Typography variant="h6">Luz Nadia Flores Domínguez </Typography>
                         <Typography>Rol: Frontend</Typography>
                         </CardContent>
                     </Card>
@@ -16,7 +16,7 @@ export default function Equipo(){
                 <Grid item xs={12} md={6}>
                     <Card>
                         <CardContent>
-                        <Typography variant="h6">Otro Integramte</Typography>
+                        <Typography variant="h6">Sindy Pineda Nieto</Typography>
                         <Typography>Rol: Backend</Typography>
                         </CardContent>
                     </Card>

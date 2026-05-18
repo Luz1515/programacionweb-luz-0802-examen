@@ -9,6 +9,8 @@ import {
 
 import HomeIcon from "@mui/icons-material/Home"
 import DevicesIcon from "@mui/icons-material/Devices"
+import DashboardIcon from "@mui/icons-material/Dashboard"
+import SettingsIcon from "@mui/icons-material/Settings"
 
 import { Link, useLocation } from "react-router-dom"
 
@@ -19,9 +21,9 @@ export default function Sidebar({ open, onClose, isMobile, collapsed }) {
   const location = useLocation()
 
   const menuItems = [
-    { text: "Home", icon: <HomeIcon />, path: "/" },
-    { text: "Equipo", icon: <DevicesIcon />, path: "/Equipo" },
-    { text: "Crud", icon: <DevicesIcon />, path: "/crud" },
+    { text: "Home", icon: <HomeIcon color="primary"/>, path: "/" },
+    { text: "Equipo", icon: <DevicesIcon color="primary"/>, path: "/Equipo" },
+    { text: "Crud", icon: <SettingsIcon color="primary"/>, path: "/crud" },
   ]
 
   const width = collapsed ? collapsedWidth : drawerWidth
