@@ -20,7 +20,7 @@ export default function Equipo() {
                         <CardMedia
                             component="img"
                             height="500"
-                            image="/src/assets/luz.jpeg"
+                            image="/src/assets/luz.png"
                             alt="Luz Nadia"
                         />
 
@@ -67,7 +67,7 @@ export default function Equipo() {
                         <CardMedia
                             component="img"
                             height="450"
-                            image="/src/assets/juan.jpeg"
+                            image="/src/assets/juan.png"
                             alt="Juan Carlos"
                         />
 
@@ -114,7 +114,7 @@ export default function Equipo() {
                         <CardMedia
                             component="img"
                             height="450"
-                            image="/src/assets/sindy.jpeg"
+                            image="/src/assets/sindy.png"
                             alt="Sindy"
                         />
 
