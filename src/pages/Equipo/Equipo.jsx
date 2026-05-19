@@ -1,6 +1,10 @@
 import { Grid, Card, CardContent, Typography, CardMedia } from "@mui/material";
 import PageContainer from "../../components/common/PageContainer";
 
+import juan from "../../assets/juan.png";
+import luz from "../../assets/luz.png";
+import syn from "../../assets/syn.png";
+
 export default function Equipo() {
     return (
         <PageContainer title="Integrantes del equipo de trabajo">
@@ -20,7 +24,7 @@ export default function Equipo() {
                         <CardMedia
                             component="img"
                             height="500"
-                            image="/src/assets/luz.png"
+                            image={luz}
                             alt="Luz Nadia"
                         />
 
@@ -140,7 +144,7 @@ export default function Equipo() {
                             </Typography>
 
                             <Typography>
-                                <strong>Descripción:</strong> Se encarga del desarrollo del servidor y la gestión de la base de datos
+                                <strong>Descripción:</strong> Se encarga del desarrollo del servidor y la gestión de la base de datos.
                             </Typography>
                         </CardContent>
                     </Card>
