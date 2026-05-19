@@ -71,7 +71,7 @@ export default function Equipo() {
                         <CardMedia
                             component="img"
                             height="450"
-                            image="/src/assets/juan.png"
+                            image={juan}
                             alt="Juan Carlos"
                         />
 
@@ -118,7 +118,7 @@ export default function Equipo() {
                         <CardMedia
                             component="img"
                             height="450"
-                            image="/src/assets/sindy.png"
+                            image={sindy}
                             alt="Sindy"
                         />
 
